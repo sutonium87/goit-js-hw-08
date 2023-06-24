@@ -3,7 +3,7 @@ import throttle from 'lodash.throttle';
 
 const player = new Player('vimeo-player');
 
-// Listen to timeupdate event and save playback time to local storage
+// Listen to timeupdate event and save playback time to Local Storage
 player.on(
   'timeupdate',
   throttle(() => {
